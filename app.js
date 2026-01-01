@@ -1,4 +1,5 @@
 const express =require('express');
+const app =express();
 const adminBlogPostRoute = require('./api/admin/routes/BlogPost')
 
 
