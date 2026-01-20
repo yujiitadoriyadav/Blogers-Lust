@@ -3,7 +3,7 @@ const router = express.Router()
 const mongoose =require('mongoose')
 const Blog =require('../model/blog')
 
-//post blog by admin
+//post blog by admin  ...
 router.post('/',(req,res)=>{
     const newBlog =new Blog({
         _id:new mongoose.Types.ObjectId,
